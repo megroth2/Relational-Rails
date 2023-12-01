@@ -4,20 +4,14 @@ Rails.application.routes.draw do
   # Defines the root path route ("/")
   # # root "articles#index"
   
-  # Read
   get "/resorts", to: "resorts#index"
+  get "/resorts/new", to: "resorts#new"
+  post "/resorts", to: "resorts#create"
   get "/resorts/:id", to: "resorts#show"
   get "/resorts/:resort_id/lifts", to: "resorts#lifts"
-
-  get "/lifts", to: "lifts#index"
-  get "/lifts/:id", to: "lifts#show"
-
-  # Create
-  get "/resorts/new", to: "resorts#new"#, as: :new_resort
-  post "/resorts", to: "resorts#create"
-
-  # Update
   get "/resorts/:id/edit", to: "resorts#edit"
   patch "/resorts/:id", to: "resorts#update"
 
+  get "/lifts", to: "lifts#index"
+  get "/lifts/:id", to: "lifts#show"
 end

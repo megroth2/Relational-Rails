@@ -1,16 +1,11 @@
 class ResortsController < ApplicationController
 
   def index
-    @resorts = Resort.all.sort_by(&:created_at).reverse
+    @resorts = Resort.order("created_at desc")
   end
 
-  def show # how can I fix this so show is just line 12? I couldn't get the "as: :new_resort" line in the route to work properly
-    if params[:id] == "new"
-      @resort = Resort.new
-      render "new"
-    else
+  def show
       @resort = Resort.find(params[:id])
-    end
   end
 
   def lifts

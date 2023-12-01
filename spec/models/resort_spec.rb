@@ -2,6 +2,10 @@ require "rails_helper"
 
 RSpec.describe Resort, type: :model do
 
+  describe "associations" do
+    it{should have_many(:lifts)}
+  end
+
   describe "#count_lifts" do
     it 'returns count of lifts' do
       resort_1 = Resort.create!(name: "Winter Park")

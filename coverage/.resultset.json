@@ -228,12 +228,30 @@
           1,
           1,
           1,
+          1,
+          1,
+          null,
+          1,
+          1,
           null
         ]
       },
       "/Users/megroth/Turing/2mod/Projects/Relational_Rails/app/helpers/application_helper.rb": {
         "lines": [
           1,
+          null
+        ]
+      },
+      "/Users/megroth/Turing/2mod/Projects/Relational_Rails/spec/models/lift_spec.rb": {
+        "lines": [
+          1,
+          null,
+          1,
+          null,
+          1,
+          2,
+          null,
+          null,
           null
         ]
       },
@@ -257,6 +275,10 @@
           1,
           null,
           1,
+          null,
+          1,
+          2,
+          null,
           null,
           1,
           1,
@@ -288,6 +310,6 @@
         ]
       }
     },
-    "timestamp": 1701395131
+    "timestamp": 1701466546
   }
 }
