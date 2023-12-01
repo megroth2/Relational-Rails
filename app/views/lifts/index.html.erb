@@ -1,6 +1,9 @@
 <h1>All Lifts</h1>
 
 <% @lifts.each do |lift| %>
-  <h3><%= lift.name %></h3>
-  <p><%= %></p>
+  <h3>Name: <%= lift.name %></h3>
+  <p>Resort Id: <%= lift.resort_id %></p>
+  <p>Id : <%= lift.id %></p>
+  <p>Seats: <%= lift.seats %></p>
+  <p>Is Gondola: <%= lift.is_gondola %></p>
 <% end %>

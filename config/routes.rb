@@ -6,5 +6,6 @@ Rails.application.routes.draw do
   
   get "/resorts", to: "resorts#index"
   get "/resorts/:id", to: "resorts#show"
-  # get "/lifts", to: "lifts#index"
+  get "/lift", to: "lifts#index"
+  get "/lift/:id", to: "lifts#show"
 end
