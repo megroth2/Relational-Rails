@@ -1,0 +1,11 @@
+<form action="/resorts/<%= @resort.id %>" method="post">
+  <input type="hidden" name="authenticity_token" value="<%= form_authenticity_token %>">
+  <input type="hidden" name="_method" value="POST" />
+  <h3>Create Resort</h3>
+  <p>Name: </p><input type='text' name='name'/><br/>
+  <p>Location: </p><input type= 'text' name='location'/><br/>
+  <p>Peak Elevation: </p><input type= 'integer' name='Peak Elevation'/><br/>
+  <p>Is Ikon Resort: </p><input type= 'boolean' name='Is Ikon Resort'/><br/><br/>
+  <input type='submit' value="Create Resort"/>
+</form>
+

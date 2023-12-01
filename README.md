@@ -96,9 +96,106 @@ Then I see a link to take me to that resort's `lifts` page ('/resorts/:id/lifts'
 
 ### CRUD
 
+[x] done
+
+User Story 11, Resort Creation 
+
+As a visitor
+When I visit the resort Index page
+Then I see a link to create a new resort record, "New resort"
+When I click this link
+Then I am taken to '/resorts/new' where I  see a form for a new resort record
+When I fill out the form with a new resort's attributes:
+And I click the button "Create resort" to submit the form
+Then a `POST` request is sent to the '/resorts' route,
+a new resort record is created,
+and I am redirected to the resort Index page where I see the new resort displayed.
+
+[x] done
+
+User Story 12, Resort Update 
+
+As a visitor
+When I visit a resort show page
+Then I see a link to update the resort "Update resort"
+When I click the link "Update resort"
+Then I am taken to '/resorts/:id/edit' where I  see a form to edit the resort's attributes:
+When I fill out the form with updated information
+And I click the button to submit the form
+Then a `PATCH` request is sent to '/resorts/:id',
+the resort's info is updated,
+and I am redirected to the resort's Show page where I see the resort's updated info
+
+[ ] done
+
+User Story 13, Resort Lift Creation 
+
+As a visitor
+When I visit a Resort Lifts Index page
+Then I see a link to add a new adoptable lift for that resort "Create lift"
+When I click the link
+I am taken to '/resorts/:resort_id/lifts/new' where I see a form to add a new adoptable lift
+When I fill in the form with the lift's attributes:
+And I click the button "Create lift"
+Then a `POST` request is sent to '/resorts/:resort_id/lifts',
+a new lift object/row is created for that resort,
+and I am redirected to the resort Lifts Index page where I can see the new lift listed
+
+[ ] done
+
+User Story 14, Lift Update 
+
+As a visitor
+When I visit a lift Show page
+Then I see a link to update that lift "Update lift"
+When I click the link
+I am taken to '/lifts/:id/edit' where I see a form to edit the lift's attributes:
+When I click the button to submit the form "Update lift"
+Then a `PATCH` request is sent to '/lifts/:id',
+the lift's data is updated,
+and I am redirected to the lift Show page where I see the lift's updated information
+
 ### ActiveRecord
 
+[ ] done
+
+User Story 15, Lift Index only shows `true` Records 
+
+As a visitor
+When I visit the lift index
+Then I only see records where the boolean column is `true`
+
+[ ] done
+
+User Story 16, Sort Resort's Lifts in Alphabetical Order by name 
+
+As a visitor
+When I visit the resort's lifts Index Page
+Then I see a link to sort lifts in alphabetical order
+When I click on the link
+I'm taken back to the resort's lifts Index Page where I see all of the resort's lifts in alphabetical order
+
 ### Usability
+
+[ ] done
+
+User Story 17, Resort Update From resort Index Page 
+
+As a visitor
+When I visit the resort index page
+Next to every resort, I see a link to edit that resort's info
+When I click the link
+I should be taken to that resort's edit page where I can update its information just like in User Story 12
+
+[ ] done
+
+User Story 18, Lift Update From Lifts Index Page 
+
+As a visitor
+When I visit the `lifts` index page or a resort `lifts` index page
+Next to every lift, I see a link to edit that lift's info
+When I click the link
+I should be taken to that `lifts` edit page where I can update its information just like in User Story 14
 
 ## Iteration 3
 
