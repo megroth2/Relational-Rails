@@ -25,7 +25,7 @@ Then I see the resort with that id including the resort's attributes
 User Story 3, Lift Index 
 
 As a visitor
-When I visit '/lift'
+When I visit '/lifts'
 Then I see each Lift in the system including the Lift's attributes
 (data from each column that is on the lift table)
 
@@ -34,16 +34,16 @@ Then I see each Lift in the system including the Lift's attributes
 User Story 4, Lift Show 
 
 As a visitor
-When I visit '/lift/:id'
+When I visit '/lifts/:id'
 Then I see the lift with that id including the lift's attributes
 (data from each column that is on the lift table)
 
-[ ] done
+[x] done
 
 User Story 5, Resort Lifts Index 
 
 As a visitor
-When I visit '/resorts/:resort_id/lift'
+When I visit '/resorts/:resort_id/lifts'
 Then I see each Lift that is associated with that Resort with each Lift's attributes
 (data from each column that is on the lift table)
 
@@ -90,7 +90,7 @@ User Story 10, Resort Lift Index Link
 
 As a visitor
 When I visit a resort show page ('/resorts/:id')
-Then I see a link to take me to that resort's `lift` page ('/resorts/:id/lift')
+Then I see a link to take me to that resort's `lifts` page ('/resorts/:id/lifts')
 
 ## Iteration 2
 
