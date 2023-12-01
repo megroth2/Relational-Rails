@@ -68,7 +68,7 @@ I see a count of the number of lifts associated with this resort
 
 ### Usability
 
-[ ] done
+[x] done
 
 User Story 8, Lift Index Link
 
