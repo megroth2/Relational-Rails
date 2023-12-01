@@ -49,9 +49,9 @@ Then I see each Lift that is associated with that Resort with each Lift's attrib
 
 ### ActiveRecord
 
-[ ] done
+[x] done
 
-User Story 6, Resoprt Index sorted by Most Recently Created 
+User Story 6, Resort Index sorted by Most Recently Created 
 
 As a visitor
 When I visit the resort index,
