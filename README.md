@@ -12,7 +12,7 @@ As a visitor
 When I visit '/resorts'
 Then I see the name of each resort record in the system
 
-[ ] tests written
+[x] tests written
 [x] done
 
 User Story 2, Resort Show 
@@ -22,7 +22,7 @@ When I visit '/resorts/:id'
 Then I see the resort with that id including the resort's attributes
 (data from each column that is on the resort table)
 
-[ ] tests written
+[x] tests written
 [x] done
 
 User Story 3, Lift Index 
@@ -75,7 +75,7 @@ I see a count of the number of lifts associated with this resort
 
 ### Usability
 
-[ ] tests written
+[x] tests written
 [x] done
 
 User Story 8, Lift Index Link
@@ -84,7 +84,7 @@ As a visitor
 When I visit any page on the site
 Then I see a link at the top of the page that takes me to the Lift Index
 
-[ ] tests written
+[x] tests written
 [x] done
 
 User Story 9, Resort Index Link
@@ -112,7 +112,7 @@ Then I see a link to take me to that resort's `lifts` page ('/resorts/:id/lifts'
 User Story 11, Resort Creation 
 
 As a visitor
-When I visit the resort Index page
+When I visit the Resort Index page
 Then I see a link to create a new resort record, "New resort"
 When I click this link
 Then I am taken to '/resorts/new' where I  see a form for a new resort record

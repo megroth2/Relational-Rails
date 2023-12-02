@@ -2,12 +2,6 @@ require "rails_helper"
 
 RSpec.describe "resorts index page", type: :feature do
 
-  it "has a header that says 'All Resorts'" do
-    visit "/resorts"
-
-    expect(page).to have_content("All Resorts")
-  end
-
   it "has link to Resort Index" do
     visit "/resorts"
     
@@ -26,6 +20,12 @@ RSpec.describe "resorts index page", type: :feature do
     click_link("Lift Index")
 
     expect(current_path).to eq("/lifts")
+  end
+
+  it "has a header that says 'All Resorts'" do
+    visit "/resorts"
+
+    expect(page).to have_content("All Resorts")
   end
 
   it "can see all resorts and created datetime" do
