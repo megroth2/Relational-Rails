@@ -1,6 +1,8 @@
 require "rails_helper"
 
 RSpec.describe "resorts index page", type: :feature do
+  let(:resort_1) {"<h3>Winter Park</h3>"}
+  let(:resort_2) {"<h3>Copper Mountain</h3>"}
 
   before (:each) do
     @resort_1 = Resort.create!(name:            "Winter Park",
@@ -39,15 +41,21 @@ RSpec.describe "resorts index page", type: :feature do
     expect(page).to have_content("All Resorts")
   end
 
-  it "can see all resorts and created datetime" do
+  it "can see all resorts" do
     visit "/resorts"
 
     expect(page).to have_content(@resort_1.name)
-    expect(page).to have_content(@resort_1.created_at)
 
     expect(page).to have_content(@resort_2.name)
+  end
+
+  it "can see all resorts sorted by most recently created" do
+    visit "/resorts"
+
+    expect(resort_2).to appear_before(resort_1)
+
+    expect(page).to have_content(@resort_1.created_at)
     expect(page).to have_content(@resort_2.created_at)
- 
   end
 
 end 
