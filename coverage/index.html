@@ -14,7 +14,7 @@
       <img src="./assets/0.12.3/loading.gif" alt="loading"/>
     </div>
     <div id="wrapper" class="hide">
-      <div class="timestamp">Generated <abbr class="timeago" title="2023-12-01T21:03:13-07:00">2023-12-01T21:03:13-07:00</abbr></div>
+      <div class="timestamp">Generated <abbr class="timeago" title="2023-12-01T21:06:58-07:00">2023-12-01T21:06:58-07:00</abbr></div>
       <ul class="group_tabs"></ul>
 
       <div id="content">
@@ -23,14 +23,14 @@
     <span class="group_name">All Files</span>
     (<span class="covered_percent">
       <span class="green">
-  93.51%
+  93.58%
 </span>
 
      </span>
      covered at
      <span class="covered_strength">
        <span class="green">
-         1.06
+         1.14
        </span>
     </span> hits/line
     )
@@ -43,11 +43,11 @@
   </div>
 
   <div class="t-line-summary">
-    <b>185</b> relevant lines,
-    <span class="green"><b>173</b> lines covered</span> and
+    <b>187</b> relevant lines,
+    <span class="green"><b>175</b> lines covered</span> and
     <span class="red"><b>12</b> lines missed. </span>
     (<span class="green">
-  93.51%
+  93.58%
 </span>
 )
   </div>
@@ -260,11 +260,11 @@
           <tr class="t-file">
             <td class="strong t-file__name"><a href="#9494a23410e441be9286978ff023156e155b0962" class="src_link" title="spec/features/lifts/index_spec.rb">spec/features/lifts/index_spec.rb</a></td>
             <td class="green strong cell--number t-file__coverage">100.00 %</td>
-            <td class="cell--number">62</td>
-            <td class="cell--number">30</td>
-            <td class="cell--number">30</td>
+            <td class="cell--number">64</td>
+            <td class="cell--number">31</td>
+            <td class="cell--number">31</td>
             <td class="cell--number">0</td>
-            <td class="cell--number">1.00</td>
+            <td class="cell--number">1.29</td>
             
           </tr>
         
@@ -293,11 +293,11 @@
           <tr class="t-file">
             <td class="strong t-file__name"><a href="#b59c2c7157b7e6c449f5c90bdbb9ab6f39e29cde" class="src_link" title="spec/features/resorts/index_spec.rb">spec/features/resorts/index_spec.rb</a></td>
             <td class="green strong cell--number t-file__coverage">100.00 %</td>
-            <td class="cell--number">51</td>
-            <td class="cell--number">23</td>
-            <td class="cell--number">23</td>
+            <td class="cell--number">53</td>
+            <td class="cell--number">24</td>
+            <td class="cell--number">24</td>
             <td class="cell--number">0</td>
-            <td class="cell--number">1.00</td>
+            <td class="cell--number">1.25</td>
             
           </tr>
         
@@ -3906,8 +3906,8 @@
     
 
     <div class="t-line-summary">
-      <b>30</b> relevant lines.
-      <span class="green"><b>30</b> lines covered</span> and
+      <b>31</b> relevant lines.
+      <span class="green"><b>31</b> lines covered</span> and
       <span class="red"><b>0</b> lines missed.</span>
     </div>
 
@@ -3969,18 +3969,18 @@
 
             
 
-            <code class="ruby">  it &quot;has link to Resort Index&quot; do</code>
+            <code class="ruby">  before (:each) do </code>
           </li>
         </div>
       
         <div>
-          <li class="covered" data-hits="1" data-linenumber="6">
-            <span class="hits">1</span>
+          <li class="covered" data-hits="4" data-linenumber="6">
+            <span class="hits">4</span>
             
 
             
 
-            <code class="ruby">    visit &quot;/lifts&quot;</code>
+            <code class="ruby">    @resort_2 = Resort.create!(name: &quot;Copper Mountain&quot;,</code>
           </li>
         </div>
       
@@ -3991,18 +3991,18 @@
 
             
 
-            <code class="ruby">    </code>
+            <code class="ruby">                              location: &quot;Summit County, Colorado&quot;,</code>
           </li>
         </div>
       
         <div>
-          <li class="covered" data-hits="1" data-linenumber="8">
-            <span class="hits">1</span>
+          <li class="never" data-hits="" data-linenumber="8">
+            
             
 
             
 
-            <code class="ruby">    expect(page).to have_link(&quot;Resort Index&quot;)</code>
+            <code class="ruby">                              peak_elevation: 12313,</code>
           </li>
         </div>
       
@@ -4013,18 +4013,18 @@
 
             
 
-            <code class="ruby"></code>
+            <code class="ruby">                              is_ikon_resort: true)</code>
           </li>
         </div>
       
         <div>
-          <li class="covered" data-hits="1" data-linenumber="10">
-            <span class="hits">1</span>
+          <li class="covered" data-hits="4" data-linenumber="10">
+            <span class="hits">4</span>
             
 
             
 
-            <code class="ruby">    click_link(&quot;Resort Index&quot;)</code>
+            <code class="ruby">    @lift_3 = Lift.create!(name:        &quot;American Eagle&quot;,</code>
           </li>
         </div>
       
@@ -4035,18 +4035,18 @@
 
             
 
-            <code class="ruby"></code>
+            <code class="ruby">                          seats:       6,</code>
           </li>
         </div>
       
         <div>
-          <li class="covered" data-hits="1" data-linenumber="12">
-            <span class="hits">1</span>
+          <li class="never" data-hits="" data-linenumber="12">
+            
             
 
             
 
-            <code class="ruby">    expect(current_path).to eq(&quot;/resorts&quot;)</code>
+            <code class="ruby">                          is_gondola:  true,</code>
           </li>
         </div>
       
@@ -4057,7 +4057,7 @@
 
             
 
-            <code class="ruby">  end</code>
+            <code class="ruby">                          id:          3,</code>
           </li>
         </div>
       
@@ -4068,29 +4068,29 @@
 
             
 
-            <code class="ruby"></code>
+            <code class="ruby">                          resort_id:   @resort_2.id)</code>
           </li>
         </div>
       
         <div>
-          <li class="covered" data-hits="1" data-linenumber="15">
-            <span class="hits">1</span>
+          <li class="covered" data-hits="4" data-linenumber="15">
+            <span class="hits">4</span>
             
 
             
 
-            <code class="ruby">  it &quot;has link to Lift Index&quot; do</code>
+            <code class="ruby">    @lift_4 = Lift.create!(name:        &quot;American Flyer&quot;,</code>
           </li>
         </div>
       
         <div>
-          <li class="covered" data-hits="1" data-linenumber="16">
-            <span class="hits">1</span>
+          <li class="never" data-hits="" data-linenumber="16">
+            
             
 
             
 
-            <code class="ruby">    visit &quot;/lifts&quot;</code>
+            <code class="ruby">                          seats:       6,</code>
           </li>
         </div>
       
@@ -4101,18 +4101,18 @@
 
             
 
-            <code class="ruby"></code>
+            <code class="ruby">                          is_gondola:  false,</code>
           </li>
         </div>
       
         <div>
-          <li class="covered" data-hits="1" data-linenumber="18">
-            <span class="hits">1</span>
+          <li class="never" data-hits="" data-linenumber="18">
+            
             
 
             
 
-            <code class="ruby">    expect(page).to have_link(&quot;Lift Index&quot;)</code>
+            <code class="ruby">                          id:          4,</code>
           </li>
         </div>
       
@@ -4123,18 +4123,18 @@
 
             
 
-            <code class="ruby"></code>
+            <code class="ruby">                          resort_id:   @resort_2.id)</code>
           </li>
         </div>
       
         <div>
-          <li class="covered" data-hits="1" data-linenumber="20">
-            <span class="hits">1</span>
+          <li class="never" data-hits="" data-linenumber="20">
+            
             
 
             
 
-            <code class="ruby">    click_link(&quot;Lift Index&quot;)</code>
+            <code class="ruby">  end</code>
           </li>
         </div>
       
@@ -4156,18 +4156,18 @@
 
             
 
-            <code class="ruby">    expect(current_path).to eq(&quot;/lifts&quot;)</code>
+            <code class="ruby">  it &quot;has link to Resort Index&quot; do</code>
           </li>
         </div>
       
         <div>
-          <li class="never" data-hits="" data-linenumber="23">
-            
-            
-
+          <li class="covered" data-hits="1" data-linenumber="23">
+            <span class="hits">1</span>
             
 
-            <code class="ruby">  end</code>
+            
+
+            <code class="ruby">    visit &quot;/lifts&quot;</code>
           </li>
         </div>
       
@@ -4178,7 +4178,7 @@
 
             
 
-            <code class="ruby"></code>
+            <code class="ruby">    </code>
           </li>
         </div>
       
@@ -4189,23 +4189,12 @@
 
             
 
-            <code class="ruby">  it &quot;has a header that says &#39;All Lifts&#39;&quot; do</code>
+            <code class="ruby">    expect(page).to have_link(&quot;Resort Index&quot;)</code>
           </li>
         </div>
       
         <div>
-          <li class="covered" data-hits="1" data-linenumber="26">
-            <span class="hits">1</span>
-            
-
-            
-
-            <code class="ruby">    visit &quot;/lifts&quot;</code>
-          </li>
-        </div>
-      
-        <div>
-          <li class="never" data-hits="" data-linenumber="27">
+          <li class="never" data-hits="" data-linenumber="26">
             
             
 
@@ -4216,24 +4205,35 @@
         </div>
       
         <div>
-          <li class="covered" data-hits="1" data-linenumber="28">
+          <li class="covered" data-hits="1" data-linenumber="27">
             <span class="hits">1</span>
             
 
             
 
-            <code class="ruby">    expect(page).to have_content(&quot;All Lifts&quot;)</code>
+            <code class="ruby">    click_link(&quot;Resort Index&quot;)</code>
           </li>
         </div>
       
         <div>
-          <li class="never" data-hits="" data-linenumber="29">
+          <li class="never" data-hits="" data-linenumber="28">
             
             
 
             
 
-            <code class="ruby">  end</code>
+            <code class="ruby"></code>
+          </li>
+        </div>
+      
+        <div>
+          <li class="covered" data-hits="1" data-linenumber="29">
+            <span class="hits">1</span>
+            
+
+            
+
+            <code class="ruby">    expect(current_path).to eq(&quot;/resorts&quot;)</code>
           </li>
         </div>
       
@@ -4244,18 +4244,18 @@
 
             
 
-            <code class="ruby"></code>
+            <code class="ruby">  end</code>
           </li>
         </div>
       
         <div>
-          <li class="covered" data-hits="1" data-linenumber="31">
-            <span class="hits">1</span>
+          <li class="never" data-hits="" data-linenumber="31">
+            
             
 
             
 
-            <code class="ruby">  it &quot;can see all lifts and lift attributes&quot; do</code>
+            <code class="ruby"></code>
           </li>
         </div>
       
@@ -4266,166 +4266,12 @@
 
             
 
-            <code class="ruby">    resort_2 = Resort.create!(name: &quot;Copper Mountain&quot;,</code>
+            <code class="ruby">  it &quot;has link to Lift Index&quot; do</code>
           </li>
         </div>
       
         <div>
-          <li class="never" data-hits="" data-linenumber="33">
-            
-            
-
-            
-
-            <code class="ruby">                              location: &quot;Summit County, Colorado&quot;,</code>
-          </li>
-        </div>
-      
-        <div>
-          <li class="never" data-hits="" data-linenumber="34">
-            
-            
-
-            
-
-            <code class="ruby">                              peak_elevation: 12313,</code>
-          </li>
-        </div>
-      
-        <div>
-          <li class="never" data-hits="" data-linenumber="35">
-            
-            
-
-            
-
-            <code class="ruby">                              is_ikon_resort: true)</code>
-          </li>
-        </div>
-      
-        <div>
-          <li class="covered" data-hits="1" data-linenumber="36">
-            <span class="hits">1</span>
-            
-
-            
-
-            <code class="ruby">    lift_3 = Lift.create!(name:        &quot;American Eagle&quot;,</code>
-          </li>
-        </div>
-      
-        <div>
-          <li class="never" data-hits="" data-linenumber="37">
-            
-            
-
-            
-
-            <code class="ruby">                          seats:       6,</code>
-          </li>
-        </div>
-      
-        <div>
-          <li class="never" data-hits="" data-linenumber="38">
-            
-            
-
-            
-
-            <code class="ruby">                          is_gondola:  true,</code>
-          </li>
-        </div>
-      
-        <div>
-          <li class="never" data-hits="" data-linenumber="39">
-            
-            
-
-            
-
-            <code class="ruby">                          id:          3,</code>
-          </li>
-        </div>
-      
-        <div>
-          <li class="never" data-hits="" data-linenumber="40">
-            
-            
-
-            
-
-            <code class="ruby">                          resort_id:   resort_2.id)</code>
-          </li>
-        </div>
-      
-        <div>
-          <li class="covered" data-hits="1" data-linenumber="41">
-            <span class="hits">1</span>
-            
-
-            
-
-            <code class="ruby">    lift_4 = Lift.create!(name:        &quot;American Flyer&quot;,</code>
-          </li>
-        </div>
-      
-        <div>
-          <li class="never" data-hits="" data-linenumber="42">
-            
-            
-
-            
-
-            <code class="ruby">                          seats:       6,</code>
-          </li>
-        </div>
-      
-        <div>
-          <li class="never" data-hits="" data-linenumber="43">
-            
-            
-
-            
-
-            <code class="ruby">                          is_gondola:  false,</code>
-          </li>
-        </div>
-      
-        <div>
-          <li class="never" data-hits="" data-linenumber="44">
-            
-            
-
-            
-
-            <code class="ruby">                          id:          4,</code>
-          </li>
-        </div>
-      
-        <div>
-          <li class="never" data-hits="" data-linenumber="45">
-            
-            
-
-            
-
-            <code class="ruby">                          resort_id:   resort_2.id)</code>
-          </li>
-        </div>
-      
-        <div>
-          <li class="never" data-hits="" data-linenumber="46">
-            
-            
-
-            
-
-            <code class="ruby"></code>
-          </li>
-        </div>
-      
-        <div>
-          <li class="covered" data-hits="1" data-linenumber="47">
+          <li class="covered" data-hits="1" data-linenumber="33">
             <span class="hits">1</span>
             
 
@@ -4436,7 +4282,7 @@
         </div>
       
         <div>
-          <li class="never" data-hits="" data-linenumber="48">
+          <li class="never" data-hits="" data-linenumber="34">
             
             
 
@@ -4447,62 +4293,18 @@
         </div>
       
         <div>
-          <li class="covered" data-hits="1" data-linenumber="49">
+          <li class="covered" data-hits="1" data-linenumber="35">
             <span class="hits">1</span>
             
 
             
 
-            <code class="ruby">    expect(page).to have_content(lift_3.name)</code>
+            <code class="ruby">    expect(page).to have_link(&quot;Lift Index&quot;)</code>
           </li>
         </div>
       
         <div>
-          <li class="covered" data-hits="1" data-linenumber="50">
-            <span class="hits">1</span>
-            
-
-            
-
-            <code class="ruby">    expect(page).to have_content(lift_3.seats)</code>
-          </li>
-        </div>
-      
-        <div>
-          <li class="covered" data-hits="1" data-linenumber="51">
-            <span class="hits">1</span>
-            
-
-            
-
-            <code class="ruby">    expect(page).to have_content(&quot;Is Gondola: #{lift_3.is_gondola}&quot;)</code>
-          </li>
-        </div>
-      
-        <div>
-          <li class="covered" data-hits="1" data-linenumber="52">
-            <span class="hits">1</span>
-            
-
-            
-
-            <code class="ruby">    expect(page).to have_content(&quot;Lift Id: #{lift_3.id}&quot;)</code>
-          </li>
-        </div>
-      
-        <div>
-          <li class="covered" data-hits="1" data-linenumber="53">
-            <span class="hits">1</span>
-            
-
-            
-
-            <code class="ruby">    expect(page).to have_content(&quot;Resort Id: #{lift_3.resort_id}&quot;)</code>
-          </li>
-        </div>
-      
-        <div>
-          <li class="never" data-hits="" data-linenumber="54">
+          <li class="never" data-hits="" data-linenumber="36">
             
             
 
@@ -4513,62 +4315,40 @@
         </div>
       
         <div>
-          <li class="covered" data-hits="1" data-linenumber="55">
+          <li class="covered" data-hits="1" data-linenumber="37">
             <span class="hits">1</span>
             
 
             
 
-            <code class="ruby">    expect(page).to have_content(lift_4.name)</code>
+            <code class="ruby">    click_link(&quot;Lift Index&quot;)</code>
           </li>
         </div>
       
         <div>
-          <li class="covered" data-hits="1" data-linenumber="56">
+          <li class="never" data-hits="" data-linenumber="38">
+            
+            
+
+            
+
+            <code class="ruby"></code>
+          </li>
+        </div>
+      
+        <div>
+          <li class="covered" data-hits="1" data-linenumber="39">
             <span class="hits">1</span>
             
 
             
 
-            <code class="ruby">    expect(page).to have_content(lift_4.seats)</code>
+            <code class="ruby">    expect(current_path).to eq(&quot;/lifts&quot;)</code>
           </li>
         </div>
       
         <div>
-          <li class="covered" data-hits="1" data-linenumber="57">
-            <span class="hits">1</span>
-            
-
-            
-
-            <code class="ruby">    expect(page).to have_content(&quot;Is Gondola: #{lift_4.is_gondola}&quot;)</code>
-          </li>
-        </div>
-      
-        <div>
-          <li class="covered" data-hits="1" data-linenumber="58">
-            <span class="hits">1</span>
-            
-
-            
-
-            <code class="ruby">    expect(page).to have_content(&quot;Lift Id: #{lift_4.id}&quot;)</code>
-          </li>
-        </div>
-      
-        <div>
-          <li class="covered" data-hits="1" data-linenumber="59">
-            <span class="hits">1</span>
-            
-
-            
-
-            <code class="ruby">    expect(page).to have_content(&quot;Resort Id: #{lift_4.resort_id}&quot;)</code>
-          </li>
-        </div>
-      
-        <div>
-          <li class="never" data-hits="" data-linenumber="60">
+          <li class="never" data-hits="" data-linenumber="40">
             
             
 
@@ -4579,7 +4359,7 @@
         </div>
       
         <div>
-          <li class="never" data-hits="" data-linenumber="61">
+          <li class="never" data-hits="" data-linenumber="41">
             
             
 
@@ -4590,7 +4370,249 @@
         </div>
       
         <div>
+          <li class="covered" data-hits="1" data-linenumber="42">
+            <span class="hits">1</span>
+            
+
+            
+
+            <code class="ruby">  it &quot;has a header that says &#39;All Lifts&#39;&quot; do</code>
+          </li>
+        </div>
+      
+        <div>
+          <li class="covered" data-hits="1" data-linenumber="43">
+            <span class="hits">1</span>
+            
+
+            
+
+            <code class="ruby">    visit &quot;/lifts&quot;</code>
+          </li>
+        </div>
+      
+        <div>
+          <li class="never" data-hits="" data-linenumber="44">
+            
+            
+
+            
+
+            <code class="ruby"></code>
+          </li>
+        </div>
+      
+        <div>
+          <li class="covered" data-hits="1" data-linenumber="45">
+            <span class="hits">1</span>
+            
+
+            
+
+            <code class="ruby">    expect(page).to have_content(&quot;All Lifts&quot;)</code>
+          </li>
+        </div>
+      
+        <div>
+          <li class="never" data-hits="" data-linenumber="46">
+            
+            
+
+            
+
+            <code class="ruby">  end</code>
+          </li>
+        </div>
+      
+        <div>
+          <li class="never" data-hits="" data-linenumber="47">
+            
+            
+
+            
+
+            <code class="ruby"></code>
+          </li>
+        </div>
+      
+        <div>
+          <li class="covered" data-hits="1" data-linenumber="48">
+            <span class="hits">1</span>
+            
+
+            
+
+            <code class="ruby">  it &quot;can see all lifts and lift attributes&quot; do</code>
+          </li>
+        </div>
+      
+        <div>
+          <li class="covered" data-hits="1" data-linenumber="49">
+            <span class="hits">1</span>
+            
+
+            
+
+            <code class="ruby">    visit &quot;/lifts&quot;</code>
+          </li>
+        </div>
+      
+        <div>
+          <li class="never" data-hits="" data-linenumber="50">
+            
+            
+
+            
+
+            <code class="ruby"></code>
+          </li>
+        </div>
+      
+        <div>
+          <li class="covered" data-hits="1" data-linenumber="51">
+            <span class="hits">1</span>
+            
+
+            
+
+            <code class="ruby">    expect(page).to have_content(@lift_3.name)</code>
+          </li>
+        </div>
+      
+        <div>
+          <li class="covered" data-hits="1" data-linenumber="52">
+            <span class="hits">1</span>
+            
+
+            
+
+            <code class="ruby">    expect(page).to have_content(@lift_3.seats)</code>
+          </li>
+        </div>
+      
+        <div>
+          <li class="covered" data-hits="1" data-linenumber="53">
+            <span class="hits">1</span>
+            
+
+            
+
+            <code class="ruby">    expect(page).to have_content(&quot;Is Gondola: #{@lift_3.is_gondola}&quot;)</code>
+          </li>
+        </div>
+      
+        <div>
+          <li class="covered" data-hits="1" data-linenumber="54">
+            <span class="hits">1</span>
+            
+
+            
+
+            <code class="ruby">    expect(page).to have_content(&quot;Lift Id: #{@lift_3.id}&quot;)</code>
+          </li>
+        </div>
+      
+        <div>
+          <li class="covered" data-hits="1" data-linenumber="55">
+            <span class="hits">1</span>
+            
+
+            
+
+            <code class="ruby">    expect(page).to have_content(&quot;Resort Id: #{@lift_3.resort_id}&quot;)</code>
+          </li>
+        </div>
+      
+        <div>
+          <li class="never" data-hits="" data-linenumber="56">
+            
+            
+
+            
+
+            <code class="ruby"></code>
+          </li>
+        </div>
+      
+        <div>
+          <li class="covered" data-hits="1" data-linenumber="57">
+            <span class="hits">1</span>
+            
+
+            
+
+            <code class="ruby">    expect(page).to have_content(@lift_4.name)</code>
+          </li>
+        </div>
+      
+        <div>
+          <li class="covered" data-hits="1" data-linenumber="58">
+            <span class="hits">1</span>
+            
+
+            
+
+            <code class="ruby">    expect(page).to have_content(@lift_4.seats)</code>
+          </li>
+        </div>
+      
+        <div>
+          <li class="covered" data-hits="1" data-linenumber="59">
+            <span class="hits">1</span>
+            
+
+            
+
+            <code class="ruby">    expect(page).to have_content(&quot;Is Gondola: #{@lift_4.is_gondola}&quot;)</code>
+          </li>
+        </div>
+      
+        <div>
+          <li class="covered" data-hits="1" data-linenumber="60">
+            <span class="hits">1</span>
+            
+
+            
+
+            <code class="ruby">    expect(page).to have_content(&quot;Lift Id: #{@lift_4.id}&quot;)</code>
+          </li>
+        </div>
+      
+        <div>
+          <li class="covered" data-hits="1" data-linenumber="61">
+            <span class="hits">1</span>
+            
+
+            
+
+            <code class="ruby">    expect(page).to have_content(&quot;Resort Id: #{@lift_4.resort_id}&quot;)</code>
+          </li>
+        </div>
+      
+        <div>
           <li class="never" data-hits="" data-linenumber="62">
+            
+            
+
+            
+
+            <code class="ruby">  end</code>
+          </li>
+        </div>
+      
+        <div>
+          <li class="never" data-hits="" data-linenumber="63">
+            
+            
+
+            
+
+            <code class="ruby"></code>
+          </li>
+        </div>
+      
+        <div>
+          <li class="never" data-hits="" data-linenumber="64">
             
             
 
@@ -4703,8 +4725,8 @@
     
 
     <div class="t-line-summary">
-      <b>23</b> relevant lines.
-      <span class="green"><b>23</b> lines covered</span> and
+      <b>24</b> relevant lines.
+      <span class="green"><b>24</b> lines covered</span> and
       <span class="red"><b>0</b> lines missed.</span>
     </div>
 
@@ -4766,18 +4788,18 @@
 
             
 
-            <code class="ruby">  it &quot;has link to Resort Index&quot; do</code>
+            <code class="ruby">  before (:each) do</code>
           </li>
         </div>
       
         <div>
-          <li class="covered" data-hits="1" data-linenumber="6">
-            <span class="hits">1</span>
+          <li class="covered" data-hits="4" data-linenumber="6">
+            <span class="hits">4</span>
             
 
             
 
-            <code class="ruby">    visit &quot;/resorts&quot;</code>
+            <code class="ruby">    @resort_1 = Resort.create!(name: &quot;Winter Park&quot;,</code>
           </li>
         </div>
       
@@ -4788,18 +4810,18 @@
 
             
 
-            <code class="ruby">    </code>
+            <code class="ruby">                              location: &quot;Grand County, Colorado&quot;,</code>
           </li>
         </div>
       
         <div>
-          <li class="covered" data-hits="1" data-linenumber="8">
-            <span class="hits">1</span>
+          <li class="never" data-hits="" data-linenumber="8">
+            
             
 
             
 
-            <code class="ruby">    expect(page).to have_link(&quot;Resort Index&quot;)</code>
+            <code class="ruby">                              peak_elevation: 12060,</code>
           </li>
         </div>
       
@@ -4810,18 +4832,18 @@
 
             
 
-            <code class="ruby"></code>
+            <code class="ruby">                              is_ikon_resort: true)</code>
           </li>
         </div>
       
         <div>
-          <li class="covered" data-hits="1" data-linenumber="10">
-            <span class="hits">1</span>
+          <li class="covered" data-hits="4" data-linenumber="10">
+            <span class="hits">4</span>
             
 
             
 
-            <code class="ruby">    click_link(&quot;Resort Index&quot;)</code>
+            <code class="ruby">    @resort_2 = Resort.create!(name: &quot;Copper Mountain&quot;,</code>
           </li>
         </div>
       
@@ -4832,18 +4854,18 @@
 
             
 
-            <code class="ruby"></code>
+            <code class="ruby">                              location: &quot;Summit County, Colorado&quot;,</code>
           </li>
         </div>
       
         <div>
-          <li class="covered" data-hits="1" data-linenumber="12">
-            <span class="hits">1</span>
+          <li class="never" data-hits="" data-linenumber="12">
+            
             
 
             
 
-            <code class="ruby">    expect(current_path).to eq(&quot;/resorts&quot;)</code>
+            <code class="ruby">                              peak_elevation: 12313,</code>
           </li>
         </div>
       
@@ -4854,7 +4876,7 @@
 
             
 
-            <code class="ruby">  end</code>
+            <code class="ruby">                              is_ikon_resort: true)</code>
           </li>
         </div>
       
@@ -4865,18 +4887,18 @@
 
             
 
-            <code class="ruby"></code>
+            <code class="ruby">  end</code>
           </li>
         </div>
       
         <div>
-          <li class="covered" data-hits="1" data-linenumber="15">
-            <span class="hits">1</span>
+          <li class="never" data-hits="" data-linenumber="15">
+            
             
 
             
 
-            <code class="ruby">  it &quot;has link to Lift Index&quot; do</code>
+            <code class="ruby"></code>
           </li>
         </div>
       
@@ -4887,12 +4909,45 @@
 
             
 
+            <code class="ruby">  it &quot;has link to Resort Index&quot; do</code>
+          </li>
+        </div>
+      
+        <div>
+          <li class="covered" data-hits="1" data-linenumber="17">
+            <span class="hits">1</span>
+            
+
+            
+
             <code class="ruby">    visit &quot;/resorts&quot;</code>
           </li>
         </div>
       
         <div>
-          <li class="never" data-hits="" data-linenumber="17">
+          <li class="never" data-hits="" data-linenumber="18">
+            
+            
+
+            
+
+            <code class="ruby">    </code>
+          </li>
+        </div>
+      
+        <div>
+          <li class="covered" data-hits="1" data-linenumber="19">
+            <span class="hits">1</span>
+            
+
+            
+
+            <code class="ruby">    expect(page).to have_link(&quot;Resort Index&quot;)</code>
+          </li>
+        </div>
+      
+        <div>
+          <li class="never" data-hits="" data-linenumber="20">
             
             
 
@@ -4903,18 +4958,18 @@
         </div>
       
         <div>
-          <li class="covered" data-hits="1" data-linenumber="18">
+          <li class="covered" data-hits="1" data-linenumber="21">
             <span class="hits">1</span>
             
 
             
 
-            <code class="ruby">    expect(page).to have_link(&quot;Lift Index&quot;)</code>
+            <code class="ruby">    click_link(&quot;Resort Index&quot;)</code>
           </li>
         </div>
       
         <div>
-          <li class="never" data-hits="" data-linenumber="19">
+          <li class="never" data-hits="" data-linenumber="22">
             
             
 
@@ -4925,46 +4980,13 @@
         </div>
       
         <div>
-          <li class="covered" data-hits="1" data-linenumber="20">
+          <li class="covered" data-hits="1" data-linenumber="23">
             <span class="hits">1</span>
             
 
             
 
-            <code class="ruby">    click_link(&quot;Lift Index&quot;)</code>
-          </li>
-        </div>
-      
-        <div>
-          <li class="never" data-hits="" data-linenumber="21">
-            
-            
-
-            
-
-            <code class="ruby"></code>
-          </li>
-        </div>
-      
-        <div>
-          <li class="covered" data-hits="1" data-linenumber="22">
-            <span class="hits">1</span>
-            
-
-            
-
-            <code class="ruby">    expect(current_path).to eq(&quot;/lifts&quot;)</code>
-          </li>
-        </div>
-      
-        <div>
-          <li class="never" data-hits="" data-linenumber="23">
-            
-            
-
-            
-
-            <code class="ruby">  end</code>
+            <code class="ruby">    expect(current_path).to eq(&quot;/resorts&quot;)</code>
           </li>
         </div>
       
@@ -4975,18 +4997,18 @@
 
             
 
-            <code class="ruby"></code>
+            <code class="ruby">  end</code>
           </li>
         </div>
       
         <div>
-          <li class="covered" data-hits="1" data-linenumber="25">
-            <span class="hits">1</span>
+          <li class="never" data-hits="" data-linenumber="25">
+            
             
 
             
 
-            <code class="ruby">  it &quot;has a header that says &#39;All Resorts&#39;&quot; do</code>
+            <code class="ruby"></code>
           </li>
         </div>
       
@@ -4997,12 +5019,23 @@
 
             
 
+            <code class="ruby">  it &quot;has link to Lift Index&quot; do</code>
+          </li>
+        </div>
+      
+        <div>
+          <li class="covered" data-hits="1" data-linenumber="27">
+            <span class="hits">1</span>
+            
+
+            
+
             <code class="ruby">    visit &quot;/resorts&quot;</code>
           </li>
         </div>
       
         <div>
-          <li class="never" data-hits="" data-linenumber="27">
+          <li class="never" data-hits="" data-linenumber="28">
             
             
 
@@ -5013,24 +5046,13 @@
         </div>
       
         <div>
-          <li class="covered" data-hits="1" data-linenumber="28">
+          <li class="covered" data-hits="1" data-linenumber="29">
             <span class="hits">1</span>
             
 
             
 
-            <code class="ruby">    expect(page).to have_content(&quot;All Resorts&quot;)</code>
-          </li>
-        </div>
-      
-        <div>
-          <li class="never" data-hits="" data-linenumber="29">
-            
-            
-
-            
-
-            <code class="ruby">  end</code>
+            <code class="ruby">    expect(page).to have_link(&quot;Lift Index&quot;)</code>
           </li>
         </div>
       
@@ -5052,29 +5074,29 @@
 
             
 
-            <code class="ruby">  it &quot;can see all resorts and created datetime&quot; do</code>
+            <code class="ruby">    click_link(&quot;Lift Index&quot;)</code>
           </li>
         </div>
       
         <div>
-          <li class="covered" data-hits="1" data-linenumber="32">
+          <li class="never" data-hits="" data-linenumber="32">
+            
+            
+
+            
+
+            <code class="ruby"></code>
+          </li>
+        </div>
+      
+        <div>
+          <li class="covered" data-hits="1" data-linenumber="33">
             <span class="hits">1</span>
             
 
             
 
-            <code class="ruby">    resort_1 = Resort.create!(name: &quot;Winter Park&quot;,</code>
-          </li>
-        </div>
-      
-        <div>
-          <li class="never" data-hits="" data-linenumber="33">
-            
-            
-
-            
-
-            <code class="ruby">                              location: &quot;Grand County, Colorado&quot;,</code>
+            <code class="ruby">    expect(current_path).to eq(&quot;/lifts&quot;)</code>
           </li>
         </div>
       
@@ -5085,7 +5107,7 @@
 
             
 
-            <code class="ruby">                              peak_elevation: 12060,</code>
+            <code class="ruby">  end</code>
           </li>
         </div>
       
@@ -5096,7 +5118,7 @@
 
             
 
-            <code class="ruby">                              is_ikon_resort: true)</code>
+            <code class="ruby"></code>
           </li>
         </div>
       
@@ -5107,56 +5129,12 @@
 
             
 
-            <code class="ruby">    resort_2 = Resort.create!(name: &quot;Copper Mountain&quot;,</code>
+            <code class="ruby">  it &quot;has a header that says &#39;All Resorts&#39;&quot; do</code>
           </li>
         </div>
       
         <div>
-          <li class="never" data-hits="" data-linenumber="37">
-            
-            
-
-            
-
-            <code class="ruby">                              location: &quot;Summit County, Colorado&quot;,</code>
-          </li>
-        </div>
-      
-        <div>
-          <li class="never" data-hits="" data-linenumber="38">
-            
-            
-
-            
-
-            <code class="ruby">                              peak_elevation: 12313,</code>
-          </li>
-        </div>
-      
-        <div>
-          <li class="never" data-hits="" data-linenumber="39">
-            
-            
-
-            
-
-            <code class="ruby">                              is_ikon_resort: true)</code>
-          </li>
-        </div>
-      
-        <div>
-          <li class="never" data-hits="" data-linenumber="40">
-            
-            
-
-            
-
-            <code class="ruby"></code>
-          </li>
-        </div>
-      
-        <div>
-          <li class="covered" data-hits="1" data-linenumber="41">
+          <li class="covered" data-hits="1" data-linenumber="37">
             <span class="hits">1</span>
             
 
@@ -5167,7 +5145,7 @@
         </div>
       
         <div>
-          <li class="never" data-hits="" data-linenumber="42">
+          <li class="never" data-hits="" data-linenumber="38">
             
             
 
@@ -5178,73 +5156,18 @@
         </div>
       
         <div>
-          <li class="covered" data-hits="1" data-linenumber="43">
+          <li class="covered" data-hits="1" data-linenumber="39">
             <span class="hits">1</span>
             
 
             
 
-            <code class="ruby">    expect(page).to have_content(resort_1.name)</code>
+            <code class="ruby">    expect(page).to have_content(&quot;All Resorts&quot;)</code>
           </li>
         </div>
       
         <div>
-          <li class="covered" data-hits="1" data-linenumber="44">
-            <span class="hits">1</span>
-            
-
-            
-
-            <code class="ruby">    expect(page).to have_content(resort_1.created_at)</code>
-          </li>
-        </div>
-      
-        <div>
-          <li class="never" data-hits="" data-linenumber="45">
-            
-            
-
-            
-
-            <code class="ruby"></code>
-          </li>
-        </div>
-      
-        <div>
-          <li class="covered" data-hits="1" data-linenumber="46">
-            <span class="hits">1</span>
-            
-
-            
-
-            <code class="ruby">    expect(page).to have_content(resort_2.name)</code>
-          </li>
-        </div>
-      
-        <div>
-          <li class="covered" data-hits="1" data-linenumber="47">
-            <span class="hits">1</span>
-            
-
-            
-
-            <code class="ruby">    expect(page).to have_content(resort_2.created_at)</code>
-          </li>
-        </div>
-      
-        <div>
-          <li class="never" data-hits="" data-linenumber="48">
-            
-            
-
-            
-
-            <code class="ruby"> </code>
-          </li>
-        </div>
-      
-        <div>
-          <li class="never" data-hits="" data-linenumber="49">
+          <li class="never" data-hits="" data-linenumber="40">
             
             
 
@@ -5255,7 +5178,7 @@
         </div>
       
         <div>
-          <li class="never" data-hits="" data-linenumber="50">
+          <li class="never" data-hits="" data-linenumber="41">
             
             
 
@@ -5266,7 +5189,128 @@
         </div>
       
         <div>
+          <li class="covered" data-hits="1" data-linenumber="42">
+            <span class="hits">1</span>
+            
+
+            
+
+            <code class="ruby">  it &quot;can see all resorts and created datetime&quot; do</code>
+          </li>
+        </div>
+      
+        <div>
+          <li class="covered" data-hits="1" data-linenumber="43">
+            <span class="hits">1</span>
+            
+
+            
+
+            <code class="ruby">    visit &quot;/resorts&quot;</code>
+          </li>
+        </div>
+      
+        <div>
+          <li class="never" data-hits="" data-linenumber="44">
+            
+            
+
+            
+
+            <code class="ruby"></code>
+          </li>
+        </div>
+      
+        <div>
+          <li class="covered" data-hits="1" data-linenumber="45">
+            <span class="hits">1</span>
+            
+
+            
+
+            <code class="ruby">    expect(page).to have_content(@resort_1.name)</code>
+          </li>
+        </div>
+      
+        <div>
+          <li class="covered" data-hits="1" data-linenumber="46">
+            <span class="hits">1</span>
+            
+
+            
+
+            <code class="ruby">    expect(page).to have_content(@resort_1.created_at)</code>
+          </li>
+        </div>
+      
+        <div>
+          <li class="never" data-hits="" data-linenumber="47">
+            
+            
+
+            
+
+            <code class="ruby"></code>
+          </li>
+        </div>
+      
+        <div>
+          <li class="covered" data-hits="1" data-linenumber="48">
+            <span class="hits">1</span>
+            
+
+            
+
+            <code class="ruby">    expect(page).to have_content(@resort_2.name)</code>
+          </li>
+        </div>
+      
+        <div>
+          <li class="covered" data-hits="1" data-linenumber="49">
+            <span class="hits">1</span>
+            
+
+            
+
+            <code class="ruby">    expect(page).to have_content(@resort_2.created_at)</code>
+          </li>
+        </div>
+      
+        <div>
+          <li class="never" data-hits="" data-linenumber="50">
+            
+            
+
+            
+
+            <code class="ruby"> </code>
+          </li>
+        </div>
+      
+        <div>
           <li class="never" data-hits="" data-linenumber="51">
+            
+            
+
+            
+
+            <code class="ruby">  end</code>
+          </li>
+        </div>
+      
+        <div>
+          <li class="never" data-hits="" data-linenumber="52">
+            
+            
+
+            
+
+            <code class="ruby"></code>
+          </li>
+        </div>
+      
+        <div>
+          <li class="never" data-hits="" data-linenumber="53">
             
             
 
