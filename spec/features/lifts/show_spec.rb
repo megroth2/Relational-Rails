@@ -3,15 +3,16 @@ require "rails_helper"
 RSpec.describe "lifts show page", type: :feature do
 
   before (:each) do
-    @resort_2 = Resort.create!(name: "Copper Mountain",
-                              location: "Summit County, Colorado",
-                              peak_elevation: 12313,
-                              is_ikon_resort: true)
+    @resort_2 = Resort.create!(name:            "Copper Mountain",
+                               location:        "Summit County, Colorado",
+                               peak_elevation:  12313,
+                               is_ikon_resort:  true)
+
     @lift_3 = Lift.create!(name:        "American Eagle",
-                          seats:       6,
-                          is_gondola:  true,
-                          id:          3,
-                          resort_id:   @resort_2.id)   
+                           seats:       6,
+                           is_gondola:  true,
+                           id:          3,
+                           resort_id:   @resort_2.id)   
   end
 
   it "has link to Resort Index" do

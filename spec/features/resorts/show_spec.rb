@@ -4,9 +4,9 @@ RSpec.describe "resorts show page", type: :feature do
 
   before (:each) do
     @resort_1 = Resort.create!(name:             "Winter Park",
-                              location:         "Grand County, Colorado",
-                              peak_elevation:   12060,
-                              is_ikon_resort:   true)
+                               location:         "Grand County, Colorado",
+                               peak_elevation:   12060,
+                               is_ikon_resort:   true)
   end
 
   it "has link to Resort Index" do

@@ -42,7 +42,7 @@ When I visit '/lifts/:id'
 Then I see the lift with that id including the lift's attributes
 (data from each column that is on the lift table)
 
-[ ] tests written
+[x] tests written
 [x] done
 
 User Story 5, Resort Lifts Index 
