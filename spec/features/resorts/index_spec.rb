@@ -58,4 +58,14 @@ RSpec.describe "resorts index page", type: :feature do
     expect(page).to have_content(@resort_2.created_at)
   end
 
+  it "has a link to create a new resort" do
+    visit "/resorts"
+
+    expect(page).to have_link("New Resort")
+
+    click_link("New Resort")
+
+    expect(current_path).to eq("/resorts/new")
+  end
+
 end 

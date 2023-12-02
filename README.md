@@ -93,7 +93,7 @@ As a visitor
 When I visit any page on the site
 Then I see a link at the top of the page that takes me to the Resort Index
 
-[ ] tests written
+[x] tests written
 [x] done
 
 User Story 10, Resort Lift Index Link
@@ -113,7 +113,7 @@ User Story 11, Resort Creation
 
 As a visitor
 When I visit the Resort Index page
-Then I see a link to create a new resort record, "New resort"
+Then I see a link to create a new resort record, "New Resort"
 When I click this link
 Then I am taken to '/resorts/new' where I  see a form for a new resort record
 When I fill out the form with a new resort's attributes:
