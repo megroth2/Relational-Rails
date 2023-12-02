@@ -32,7 +32,7 @@ When I visit '/lifts'
 Then I see each Lift in the system including the Lift's attributes
 (data from each column that is on the lift table)
 
-[ ] tests written
+[x] tests written
 [x] done
 
 User Story 4, Lift Show 
