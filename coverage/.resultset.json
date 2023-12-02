@@ -242,6 +242,151 @@
           null
         ]
       },
+      "/Users/megroth/Turing/2mod/Projects/Relational_Rails/spec/features/lifts/index_spec.rb": {
+        "lines": [
+          1,
+          null,
+          1,
+          null,
+          1,
+          1,
+          null,
+          1,
+          null,
+          null,
+          1,
+          1,
+          null,
+          1,
+          null,
+          1,
+          null,
+          1,
+          null,
+          null,
+          1,
+          1,
+          null,
+          1,
+          null,
+          1,
+          null,
+          1,
+          null,
+          null,
+          1,
+          1,
+          null,
+          null,
+          null,
+          1,
+          null,
+          null,
+          null,
+          null,
+          1,
+          null,
+          null,
+          null,
+          null,
+          1,
+          null,
+          1,
+          1,
+          1,
+          1,
+          1,
+          null,
+          1,
+          1,
+          1,
+          1,
+          1,
+          null,
+          null,
+          null
+        ]
+      },
+      "/Users/megroth/Turing/2mod/Projects/Relational_Rails/spec/features/lifts/show_spec.rb": {
+        "lines": [
+          1
+        ]
+      },
+      "/Users/megroth/Turing/2mod/Projects/Relational_Rails/spec/features/resorts/edit_spec.rb": {
+        "lines": [
+          1
+        ]
+      },
+      "/Users/megroth/Turing/2mod/Projects/Relational_Rails/spec/features/resorts/index_spec.rb": {
+        "lines": [
+          1,
+          null,
+          1,
+          null,
+          1,
+          1,
+          null,
+          1,
+          null,
+          null,
+          1,
+          1,
+          null,
+          1,
+          null,
+          1,
+          null,
+          1,
+          null,
+          null,
+          1,
+          1,
+          null,
+          1,
+          null,
+          1,
+          null,
+          1,
+          null,
+          null,
+          1,
+          1,
+          null,
+          null,
+          null,
+          1,
+          null,
+          null,
+          null,
+          null,
+          1,
+          null,
+          1,
+          1,
+          null,
+          1,
+          1,
+          null,
+          null,
+          null,
+          null
+        ]
+      },
+      "/Users/megroth/Turing/2mod/Projects/Relational_Rails/spec/features/resorts/lifts_spec.rb": {
+        "lines": [
+          1
+        ]
+      },
+      "/Users/megroth/Turing/2mod/Projects/Relational_Rails/spec/features/resorts/new_spec.rb": {
+        "lines": [
+          1
+        ]
+      },
+      "/Users/megroth/Turing/2mod/Projects/Relational_Rails/spec/features/resorts/show_spec.rb": {
+        "lines": [
+          1
+        ]
+      },
       "/Users/megroth/Turing/2mod/Projects/Relational_Rails/spec/models/lift_spec.rb": {
         "lines": [
           1,
@@ -308,8 +453,80 @@
           null,
           null
         ]
+      },
+      "/Users/megroth/Turing/2mod/Projects/Relational_Rails/app/controllers/lifts_controller.rb": {
+        "lines": [
+          1,
+          null,
+          1,
+          6,
+          null,
+          null,
+          1,
+          0,
+          null,
+          null,
+          null
+        ]
+      },
+      "/Users/megroth/Turing/2mod/Projects/Relational_Rails/app/controllers/application_controller.rb": {
+        "lines": [
+          1,
+          null
+        ]
+      },
+      "/Users/megroth/Turing/2mod/Projects/Relational_Rails/app/controllers/resorts_controller.rb": {
+        "lines": [
+          1,
+          null,
+          1,
+          6,
+          null,
+          null,
+          1,
+          0,
+          null,
+          null,
+          1,
+          0,
+          0,
+          null,
+          null,
+          1,
+          0,
+          null,
+          null,
+          1,
+          0,
+          null,
+          null,
+          null,
+          null,
+          null,
+          0,
+          0,
+          null,
+          null,
+          1,
+          0,
+          null,
+          null,
+          1,
+          0,
+          0,
+          null,
+          null,
+          null,
+          null,
+          null,
+          0,
+          0,
+          null,
+          null,
+          null
+        ]
       }
     },
-    "timestamp": 1701466546
+    "timestamp": 1701483626
   }
 }
