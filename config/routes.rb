@@ -8,7 +8,7 @@ Rails.application.routes.draw do
   get "/resorts/new", to: "resorts#new"
   post "/resorts", to: "resorts#create"
   get "/resorts/:id", to: "resorts#show"
-  get "/resorts/:resort_id/lifts", to: "resorts#lifts"
+  get "/resorts/:resort_id/lifts", to: "resort_lifts#index"
   get "/resorts/:id/edit", to: "resorts#edit"
   patch "/resorts/:id", to: "resorts#update"
 

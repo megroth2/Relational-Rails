@@ -8,11 +8,6 @@ class ResortsController < ApplicationController
       @resort = Resort.find(params[:id])
   end
 
-  def lifts
-    @resort = Resort.find(params[:resort_id])
-    @lifts = @resort.lifts
-  end
-
   def new
     @resort = Resort.new
   end
