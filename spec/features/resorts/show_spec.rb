@@ -91,4 +91,14 @@ RSpec.describe "resorts show page", type: :feature do
     expect(current_path).to eq("/resorts/#{@resort_1.id}/lifts")
   end
 
+  it "has link to edit page" do
+    visit "/resorts/#{@resort_1.id}"
+
+    expect(page).to have_link("Update Resort")
+
+    click_link("Update Resort")
+
+    expect(current_path).to eq("/resorts/#{@resort_1.id}/edit")
+  end
+
 end

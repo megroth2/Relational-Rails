@@ -16,8 +16,8 @@ class ResortsController < ApplicationController
     @resort = Resort.new({
       name: params[:name],
       location: params[:location],
-      peak_elevation: params[:"Peak Elevation"],
-      is_ikon_resort: params[:"Is Ikon Resort"]
+      peak_elevation: params[:"peak_elevation"],
+      is_ikon_resort: params[:"is_ikon_resort"]
     })
     @resort.save
     redirect_to "/resorts"
@@ -32,8 +32,8 @@ class ResortsController < ApplicationController
     @resort.update({
       name: params[:name],
       location: params[:location],
-      peak_elevation: params[:"Peak Elevation"],
-      is_ikon_resort: params[:"Is Ikon Resort"]
+      peak_elevation: params[:"peak_elevation"],
+      is_ikon_resort: params[:"is_ikon_resort"]
     })
     @resort.save
     redirect_to "/resorts/#{@resort.id}"

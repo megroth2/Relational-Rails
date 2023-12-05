@@ -122,7 +122,7 @@ Then a `POST` request is sent to the '/resorts' route,
 a new resort record is created,
 and I am redirected to the resort Index page where I see the new resort displayed.
 
-[ ] tests written
+[x] tests written
 [x] done
 
 User Story 12, Resort Update 

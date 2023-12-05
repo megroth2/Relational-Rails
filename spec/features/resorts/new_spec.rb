@@ -18,10 +18,10 @@ RSpec.describe "new resort page", type: :feature do
 
     expect(page).to have_button("Create Resort")
 
-    fill_in('name', with: "Steamboat")
-    fill_in('location', with: "Routt County, Colorado")
-    fill_in('peak elevation', with: 10568)
-    fill_in('is ikon resort', with: true)
+    fill_in("name", with: "Steamboat")
+    fill_in("location", with: "Routt County, Colorado")
+    fill_in("peak_elevation", with: 10568)
+    check("is_ikon_resort")
     click_button("Create Resort")
 
     expect(current_path).to eq("/resorts")

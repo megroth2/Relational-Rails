@@ -4,7 +4,7 @@
   <h3>Edit Resort</h3>
   <p>Name: </p><input type='text' name='name' value="<%= @resort.name %>"/><br/>
   <p>Location: </p><input type= 'text' name='location' value="<%= @resort.location %>"/><br/>
-  <p>Peak Elevation: </p><input type= 'integer' name='Peak Elevation' value =" <%= @resort.peak_elevation %>"/><br/>
-  <p>Is Ikon Resort: </p><input type= 'boolean' name='Is Ikon Resort' value =" <%= @resort.is_ikon_resort %>"/><br/><br/>
-  <input type='submit'/>
+  <p>Peak Elevation: </p><input type= 'number' name='peak_elevation' value = "<%= @resort.peak_elevation %>"/><br/>
+  <p>Is Ikon Resort: </p><input type= 'checkbox' name='is_ikon_resort' value =" <%= @resort.is_ikon_resort %>"/><br/><br/>
+  <input type='submit' value="Update Resort"/>
 </form>
