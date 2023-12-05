@@ -106,7 +106,7 @@ Then I see a link to take me to that resort's `lifts` page ('/resorts/:id/lifts'
 
 ### CRUD
 
-[ ] tests written
+[x] tests written
 [x] done
 
 User Story 11, Resort Creation 
