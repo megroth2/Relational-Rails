@@ -1,0 +1,9 @@
+<form action="/resorts/<%= params[:resort_id] %>/lifts" method="post">
+  <input type="hidden" name="authenticity_token" value="<%= form_authenticity_token %>">
+  <input type="hidden" name="_method" value="POST" />
+  <h3>Create Lift</h3>
+  <p>Name: </p><input type='text' name='name'/><br/>
+  <p>Seats: </p><input type= 'number' name='seats'/><br/>
+  <p>Is Gondola: </p><input type= 'checkbox' name='is_gondola'/><br/><br/>
+  <input type='submit' value="Create Lift"/>
+</form>

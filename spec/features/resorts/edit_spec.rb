@@ -29,8 +29,6 @@ RSpec.describe "resorts show page", type: :feature do
     check("is_ikon_resort")
     
     click_button("Update Resort")
-    
-    save_and_open_page
 
     expect(current_path).to eq("/resorts/#{@resort_1.id}")
     expect(page).to have_content("Winter Park")

@@ -1,6 +1,6 @@
 require "rails_helper"
 
-RSpec.describe "lifts show page", type: :feature do
+RSpec.describe "resort's lifts index page", type: :feature do
 
   before (:each) do
     @resort_1 = Resort.create!(name:             "Winter Park",
@@ -58,6 +58,16 @@ RSpec.describe "lifts show page", type: :feature do
     expect(page).to have_content("Seats: #{@lift_2.seats}")
     expect(page).to have_content("Is Gondola: #{@lift_2.is_gondola}")
     expect(page).to have_content("Lift Id: #{@lift_2.id}")
+  end
+
+  it "has a link to create a lift" do
+    visit "/resorts/#{@resort_1.id}/lifts"
+
+    expect(page).to have_link("Create Lift")
+
+    click_link("Create Lift")
+
+    expect(current_path).to eq("/resorts/#{@resort_1.id}/lifts/new")
   end
 
 end
