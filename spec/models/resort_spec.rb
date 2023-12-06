@@ -12,11 +12,15 @@ RSpec.describe Resort, type: :model do
       lift_1 = Lift.create!(name: "The Gondola", resort_id: resort_1.id)
       lift_2 = Lift.create!(name: "Panoramic Express", resort_id: resort_1.id)
 
-      expect(resort_1).to be_a(Resort)
-      expect(lift_1).to be_a(Lift)
-      expect(lift_2).to be_a(Lift)
+      resort_2 = Resort.create!(name: "Copper Mountain")
+      lift_1 = Lift.create!(name: "American Flyer", resort_id: resort_2.id)
+
+      # expect(resort_1).to be_a(Resort)
+      # expect(lift_1).to be_a(Lift)
+      # expect(lift_2).to be_a(Lift)
       
       expect(resort_1.count_lifts).to eq(2)
+      expect(resort_2.count_lifts).to eq(1)
     end
   end
 

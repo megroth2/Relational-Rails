@@ -1,7 +1,7 @@
 class ResortsController < ApplicationController
 
   def index
-    @resorts = Resort.order("created_at desc")
+    @resorts = Resort.order("created_at desc") # should be a model method
   end
 
   def show

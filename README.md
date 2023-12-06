@@ -1,6 +1,6 @@
 # README
 
-[Database Design Document](https://lucid.app/lucidchart/b1e003a1-aebf-4274-9d88-dc65c5b90985/edit?viewport_loc=-15%2C173%2C1274%2C790%2C0_0&invitationId=inv_d790469c-1829-4e23-a7be-2e62aab12b2e)
+[Database Design Document](https://lucid.app/lucidchart/b1e003a1-aebf-4274-9d88-dc65c5b90985/edit?viewport_loc=-15%2C173%2C1274%2C790%2C0_0&invitationId=inv_d790469c-1829-4e23-a7be-2e62aab12b2e) <- should be an image so people don't need to request access
 
 ## Iteration 1
 ### CRUD
