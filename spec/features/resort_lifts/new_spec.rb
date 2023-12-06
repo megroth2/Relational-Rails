@@ -26,7 +26,6 @@ RSpec.describe "new resort lift page", type: :feature do
     expect(page).to have_button("Create Lift")
 
     click_button("Create Lift")
-    save_and_open_page
 
     expect(current_path).to eq("/resorts/#{@resort_1.id}/lifts")
     expect(page).to have_content("The Gondola")

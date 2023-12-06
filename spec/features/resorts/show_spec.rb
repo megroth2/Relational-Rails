@@ -78,7 +78,6 @@ RSpec.describe "resorts show page", type: :feature do
     visit "/resorts/#{@resort_2.id}"
 
     expect(page).to have_content("Lift Count: 2")
-
   end
 
   it "has a link to that resort's lifts page" do
